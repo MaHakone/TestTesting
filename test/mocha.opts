@@ -1,0 +1,3 @@
+--compilers node:node/register
+--require node-coverage/register-istanbul
+--recursive
