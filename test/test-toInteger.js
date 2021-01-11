@@ -6,20 +6,14 @@ import expect from 'chai';
 describe('makeInteger', function(){
    describe('#decimalToInteger', function(){
      it("True if parameter is an integer", function(){   
-         assert.strictEqual(makeInteger(928478294.2), 928478294);
+         assert.strictEqual(makeInteger(94.2), 94);
      });
    });
    
    describe('#negativeToInteger', function(){
      it("True if parameter is an integer", function(){   
-         assert.strictEqual(makeInteger(-4.213234123425345636536343), -4);
+         assert.strictEqual(makeInteger(-4.213), -4);
      });
    });
    
-   describe('#commaToInteger', function(){
-     it("True if parameter is an integer", function(){   
-         assert.strictEqual(makeInteger(-4,2), -4);
-     });
-   });
-    
 });
